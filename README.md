@@ -5,5 +5,16 @@ Socks5 adalah proxy yang berbeda pada proxy umumnya, dan tidak sama dengan proxy
 Apa itu proxy socks5❓ Dan apa kelebihannya 🤔   **[Berikut Penjelasannya ❗.](https://proxycompass.com/id/knowledge-base/apa-itu-proxy-socks/)**
 
 # Cara Menggunakan
-**pkg update && pkg upgrade**
-**apt install socks**
+pkg update && pkg upgrade -y
+
+pkg install python git -y
+
+pip install colorama
+
+pip install socket 
+
+git clone github.com/suk1yu/proxy5  
+
+python3 proxy5.py start
+
+(/pro.png)

@@ -17,4 +17,4 @@ git clone github.com/suk1yu/proxy5
 
 python3 proxy5.py start
 
-(/pro.png)
+[![Proxy](/pro.png)]

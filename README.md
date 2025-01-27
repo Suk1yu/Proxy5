@@ -5,7 +5,12 @@ Socks5 adalah proxy yang berbeda pada proxy umumnya, dan tidak sama dengan proxy
 Apa itu proxy socks5❓ Dan apa kelebihannya 🤔   **[Berikut Penjelasannya ❗.](https://proxycompass.com/id/knowledge-base/apa-itu-proxy-socks/)**
 
 **[ Alert ]** Script Ini masih di tahap pengembangan [developer](https://github.com/suk1yu/)
+
 # Cara Menggunakan
+<table>
+  <tr>
+    <tb>
+      
 pkg update && pkg upgrade -y
 
 pkg install python git -y
@@ -16,7 +21,11 @@ pip install socket
 
 git clone https://github.com/Suk1yu/Proxy5/  
 
-python3 Proxy5.py start | **[python3 Proxy5.py stop]**
+python3 Proxy5.py start  [/]  [python3 Proxy5.py stop]
+</tb>
+</tr>
+</table>
 
 # The Results:
 **[![Proxy](/pro.png)](https://github.com/suk1yu/)**
+</table>

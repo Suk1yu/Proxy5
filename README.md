@@ -4,3 +4,6 @@
 Socks5 adalah proxy yang berbeda pada proxy umumnya, dan tidak sama dengan proxy gratisan seperti biasanya,      
 Apa itu proxy socks5❓ Dan apa kelebihannya 🤔   **[Berikut Penjelasannya ❗.](https://proxycompass.com/id/knowledge-base/apa-itu-proxy-socks/)**
 
+# Cara Menggunakan
+**pkg update && pkg upgrade**
+**apt install socks**

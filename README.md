@@ -4,6 +4,7 @@
 Socks5 adalah proxy yang berbeda pada proxy umumnya, dan tidak sama dengan proxy gratisan seperti biasanya,      
 Apa itu proxy socks5❓ Dan apa kelebihannya 🤔   **[Berikut Penjelasannya ❗.](https://proxycompass.com/id/knowledge-base/apa-itu-proxy-socks/)**
 
+**[ Alert ]** Script Ini masih di tahap pengembangan [developer](https://github.com/suk1yu/)
 # Cara Menggunakan
 pkg update && pkg upgrade -y
 
@@ -13,8 +14,9 @@ pip install colorama
 
 pip install socket 
 
-git clone github.com/suk1yu/proxy5  
+git clone https://github.com/Suk1yu/Proxy5/  
 
-python3 proxy5.py start
+python3 Proxy5.py start
 
-[![Proxy](/pro.png)]
+# The Results:
+**[![Proxy](/pro.png)](https://github.com/suk1yu/)**

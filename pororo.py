@@ -7,16 +7,14 @@ import logging
 from time import time, sleep
 from colorama import init, Fore, Style
 
-# Konstanta konfigurasi
 PID_FILE = "socks5_proxy.pid"
 LOG_FILE = "socks5_proxy.log"
-MAX_BYTES = 50 * 1024 * 1024  # 10 MB
-MAX_THREADS = 10  # Maksimum 100 koneksi simultan
-RATE_LIMIT = 55024 * 1024  # 1 MBps
-TIMEOUT = 30  # Timeout idle 30 detik
+MAX_BYTES = 500 * 1024 * 1024  # 500 MB
+MAX_THREADS = 10  
+RATE_LIMIT = 55024 * 2024  
+TIMEOUT = 360  
 THREAD_SEMAPHORE = threading.Semaphore(MAX_THREADS)
 
-# Konfigurasi logging
 logging.basicConfig(
     level=logging.INFO,
     format="[ %(asctime)s ] %(levelname)s ⦂ %(message)s",
@@ -28,7 +26,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger()
 
-# Tampilan awal
 init(autoreset=True)
 os.system('cls' if os.name == 'nt' else 'clear')
 print(Style.BRIGHT + Fore.BLUE + """
@@ -55,7 +52,7 @@ print()
 
 
 class SOCKS5Proxy:
-    def __init__(self, host='0.0.0.0', port=1051):
+    def __init__(self, host='0.0.0.0', port=1080):
         self.host = host
         self.port = port
         self.running = True
@@ -88,14 +85,14 @@ class SOCKS5Proxy:
                 port = int.from_bytes(client_socket.recv(2), 'big')
 
                 # Connect to the target server
-                remote_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                remote_socket = socket.socket(F_INET, socket.SOCK_STREAM)
                 remote_socket.settimeout(TIMEOUT)
                 remote_socket.connect((addr, port))
 
-                # Send success response to client
+                
                 client_socket.send(b'\x05\x00\x00\x01\x00\x00\x00\x00\x00\x00')
 
-                # Start forwarding data
+                
                 self.forward_data(client_socket, remote_socket)
 
             except Exception as e:
@@ -115,7 +112,7 @@ class SOCKS5Proxy:
                     dest.send(data)
                     total_data += len(data)
 
-                    # Apply rate limiting
+                    
                     elapsed_time = time() - start_time
                     if total_data / elapsed_time > RATE_LIMIT:
                         sleep(0.1)

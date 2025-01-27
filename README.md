@@ -16,7 +16,7 @@ pip install socket
 
 git clone https://github.com/Suk1yu/Proxy5/  
 
-python3 Proxy5.py start
+python3 Proxy5.py start | **[python3 Proxy5.py stop]**
 
 # The Results:
 **[![Proxy](/pro.png)](https://github.com/suk1yu/)**

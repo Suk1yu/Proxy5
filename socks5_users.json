@@ -1,0 +1,9 @@
+{
+  "admin": {
+    "password": "admin123",
+    "allowed_ips": [
+      "0.0.0.0/0"
+    ],
+    "rate_limit": 52428800
+  }
+}

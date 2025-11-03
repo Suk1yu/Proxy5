@@ -1,0 +1,22 @@
+[
+  {
+    "action": "allow",
+    "cidr": "127.0.0.0/8",
+    "comment": "localhost"
+  },
+  {
+    "action": "allow",
+    "cidr": "192.168.0.0/16",
+    "comment": "private network"
+  },
+  {
+    "action": "allow",
+    "cidr": "10.0.0.0/8",
+    "comment": "private network"
+  },
+  {
+    "action": "deny",
+    "cidr": "0.0.0.0/0",
+    "comment": "deny all others"
+  }
+]

@@ -1,0 +1,18 @@
+2024-12-18 22:59:37,505 - INFO - SOCKS5 proxy server started on 0.0.0.0:1080
+2024-12-18 23:01:55,507 - INFO - Proxy server with PID 19326 stopped.
+2024-12-18 23:10:40,759 - ERROR - Error starting proxy: [Errno 98] Address already in use
+2024-12-18 23:12:18,124 - WARNING - PID file not found. Proxy might not be running.
+2024-12-18 23:12:25,524 - ERROR - Error starting proxy: [Errno 98] Address already in use
+2024-12-18 23:13:02,843 - ERROR - Invalid PID file content.
+2024-12-18 23:19:16,025 - ERROR - Error starting proxy: [Errno 98] Address already in use
+2024-12-18 23:19:22,499 - WARNING - PID file not found. Proxy might not be running.
+2024-12-18 23:19:51,142 - ERROR - Invalid or empty PID file content.
+2024-12-18 23:20:18,046 - ERROR - Error stopping proxy: [Errno 1] Operation not permitted
+2024-12-18 23:22:32,901 - ERROR - Error stopping proxy: [Errno 1] Operation not permitted
+2024-12-18 23:22:41,542 - ERROR - Error starting proxy: [Errno 98] Address already in use
+2024-12-18 23:24:32,865 - ERROR - Error stopping proxy: [Errno 1] Operation not permitted
+2024-12-18 23:27:54,470 - INFO - SOCKS5 proxy server started on 0.0.0.0:1081
+2024-12-18 23:27:54,475 - INFO - PID file created with PID: 23447
+2024-12-18 23:28:14,283 - INFO - Proxy server with PID 23447 stopped.
+2024-12-18 23:35:26,390 - ERROR - Error starting proxy: [Errno 98] Address already in use
+2024-12-18 23:36:52,602 - ERROR - Error starting proxy: [Errno 98] Address already in use

@@ -131,12 +131,7 @@ Catatan: Proxy ini bukan alat anonimitas penuh (bukan Tor/mix-net). Untuk kebutu
 - Creator: **Far&** / Suk1yu
 
 <p>
-  <img src="github.png" alt="GitHub Logo" width="48" />
-  <a href="https://github.com/Suk1yu" target="_blank">Ide Dari Project Ini</a>
-</p>
-
-<p>
-  <img src="trae.jpg" alt="Trae AI Logo" width="48" />
+  <img src="trae.jpg" alt="Trae AI Logo" width="24" />
   Terima kasih kepada TraeAI yang membantu proses pengembangan.
 </p>
 
